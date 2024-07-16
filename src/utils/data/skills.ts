@@ -17,7 +17,8 @@ export const SKILLS = [
   {
     icon: 'bi bi-cpu-fill',
     label: 'Languages',
-    description: 'PHP - Dart - Python - C - C++ - Java - Lua - Golang',
+    description:
+      'HTML / CSS / JS - PHP - Dart - Python - C - C++ - Java - Lua - Golang',
   },
   {
     icon: 'bi bi-cpu-fill',
@@ -42,6 +43,6 @@ export const SKILLS = [
   {
     icon: 'bi bi-translate',
     label: 'Bilingual',
-    description: 'French (Fluently) - English (Intermediate)',
+    description: 'French (Native speaker) - English (C1 Advanced)',
   },
 ]

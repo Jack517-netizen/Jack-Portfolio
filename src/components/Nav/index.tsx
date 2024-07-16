@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import NavBarItem from '../NavBarItem'
 import Contact from '../Contact'
+import DarkModeToggle from '../DarkModeToggle'
 
 export default function Nav() {
   const [selectedNavItem, setSelectedNavItem] = useState('home')
@@ -39,21 +40,15 @@ export default function Nav() {
         >
           Certifications
         </NavBarItem>
-        {/* <NavBarItem
+        <NavBarItem
           isSelected={selectedNavItem === 'projects'}
           href="#projects"
           onClick={() => handleClick('projects')}
         >
           Projects
-        </NavBarItem> */}
-        <NavBarItem
-          isSelected={selectedNavItem === 'social-links'}
-          href="#social-links"
-          onClick={() => handleClick('social-links')}
-        >
-          Social links
         </NavBarItem>
       </ul>
+      <DarkModeToggle />
       <Contact />
     </nav>
   )

@@ -1,5 +1,6 @@
 export default function Contact({ customizeBackground = false }) {
-  let baseNames = 'text-base font-medium p-3 border-2 border-black rounded-full'
+  let baseNames =
+    'text-base font-medium p-3 border-2 border-black rounded-full dark:border-slate-400'
   if (customizeBackground === true) {
     baseNames =
       'text-base font-medium p-3 border-2 border-none rounded-full bg-primary text-white'

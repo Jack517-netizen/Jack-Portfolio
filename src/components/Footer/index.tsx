@@ -12,7 +12,7 @@ function Footer() {
               type="email"
               name="email"
               placeholder="Enter your email"
-              className="w-2/3 mr-4 border-none bg-black p-2 text-white focus:outline-1 outline-white rounded-md placeholder:text-gray-500"
+              className="w-2/3 mr-4 border-none bg-black p-2 text-white rounded-md placeholder:text-gray-500"
             />
             <button>
               <i className="bi bi-arrow-up-right"></i>
@@ -28,17 +28,17 @@ function Footer() {
             I'm Kodjo Josué AYITEY(Jack517-netizen) with 3+ years of experience.
             Passionate about software engineering and electronics.
           </p>
-          <section
-            className="w-1/3 flex items-center justify-end"
-            id="social-links"
-          >
-            <a href="https://www.linkedin.com/in/jack-josue/" className="mr-8">
+          <section className="w-1/3 flex items-center justify-end text-slate-400">
+            <a
+              href="https://www.linkedin.com/in/josue-ayitey/"
+              className="mr-8"
+            >
               <i className="bi bi-linkedin"></i>
             </a>
-            <a href="https://x.com/JosueJ2167" className="mr-8">
+            <a href="https://x.com/Jack517_netizen" className="mr-8">
               <i className="bi bi-twitter-x"></i>
             </a>
-            <a href="https://github.com/JackJosue517/" className="mr-8">
+            <a href="https://github.com/Jack517-netizen/" className="mr-8">
               <i className="bi bi-github"></i>
             </a>
           </section>

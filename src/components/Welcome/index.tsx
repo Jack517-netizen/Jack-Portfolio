@@ -4,9 +4,9 @@ function Welcome() {
   return (
     <section id="welcome" className="w-2/3 my-16 text-center m-auto">
       <h2 className="text-6xl font-medium mb-16">
-        I'm{' '}
+        I'm&nbsp;
         <span className="font-bold text-slate-400">
-          Kodjo Josué AYITEY(Jack517-netizen)
+          Kodjo Josué AYITEY @ Jack517-netizen
         </span>
         , who loves software engineering and electronics.
       </h2>
@@ -14,7 +14,7 @@ function Welcome() {
       <a
         href="/me/JACK-RESUME-EN.pdf"
         target="_blank"
-        className="text-base font-medium ml-5 p-3 border-2 border-black rounded-full"
+        className="text-base font-medium ml-5 p-3 border-2 border-black rounded-full dark:border-slate-400"
       >
         Download CV
       </a>
