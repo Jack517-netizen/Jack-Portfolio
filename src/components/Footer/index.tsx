@@ -48,15 +48,13 @@ function Footer() {
         <p className="w-2/3">&copy; Copyright 2024 All Rights Reserved</p>
         <section className="w-1/3 flex items-center justify-end">
           <a
-            href="#terms"
-            onClick={() => alert('Unavailable')}
+            href="https://www.termsfeed.com/live/0303fd0a-aeb1-4057-8ac5-0008c1a0e1c1"
             className="mr-8 hover:underline"
           >
             Terms Of Service
           </a>
           <a
-            href="#privacy"
-            onClick={() => alert('Unavailable')}
+            href="https://www.termsfeed.com/live/8f75e0a3-1dd2-4e15-847e-e89b1f58f618"
             className="hover:underline"
           >
             Privacy Policy
